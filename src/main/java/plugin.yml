@@ -1,0 +1,6 @@
+name: ScoreboardTest
+version: 0.DEV
+main: de.clientconnection.scoreboardtest.ScoreboardTest
+author: ClientConnection
+depend: [ScoreboardAPI]
+commands: 
