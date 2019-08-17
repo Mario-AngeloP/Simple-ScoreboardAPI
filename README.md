@@ -1,7 +1,6 @@
 # Simple-ScoreboardAPI
 this is an example Plugin, how to use the ScoreboardAPI.
 
-
 ## Code Example
 Use for example: 
 ```java
@@ -45,7 +44,7 @@ Use for example:
     //Managing the Groups
     ScoreboardAPI.getAPI().getScoreboardGroups().clear();//Clearing all Groups
     //Creating the Admin Group
-		final ScoreboardGroup admin = 
+    final ScoreboardGroup admin = 
     new ScoreboardGroup("admin", "000", "§cAdmin §8| §c", "§cAdministrator §8| §c",   "§cAdministrator §8| §c", "§c");
 		
     //Creating the Player Group
@@ -53,9 +52,9 @@ Use for example:
     new ScoreboardGroup("spieler", "999", "§7", "§7Spieler §8| §7", "§7Spieler §8| §7", "§7");
     //Adding Groups to internal Map, just use the addGroup method, cuz of the writing of groups
     ScoreboardAPI.getAPI().addGroup(admin);
-		ScoreboardAPI.getAPI().addGroup(player);
+    ScoreboardAPI.getAPI().addGroup(player);
     //At least for setting scoreboards, use:
-		ScoreboardAPI.getAPI().startUpdatingScoreboard();
+    ScoreboardAPI.getAPI().startUpdatingScoreboard();
   }
 ```
 Thats all, how to use the API, ty for using my API.
